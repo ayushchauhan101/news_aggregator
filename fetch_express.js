@@ -16,13 +16,7 @@ const url = 'https://newsapi.org/v2/everything?q=privacy&sortBy=popularity&apiKe
 let res = await fetch(url)
 let data = await res.json()
 
-// for (let i=0; i<3; i++){
-//     // storing fetched news data to variables
-//     let title_to_print = data['articles'][i]['title']
-//     let description_to_print = data['articles'][i]['description']
-//     let link_to_print = data['articles'][i]['url']
-// }
-
+// to print article 2
 app.get('/', (req, res)=>{
     let title_to_print = (data['articles'][2]['title']);
     let description_to_print = (data['articles'][2]['description']);

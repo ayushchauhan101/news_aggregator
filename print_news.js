@@ -13,7 +13,7 @@ app.set('view engine', 'ejs')
 app.set('views', path.join(__dirname, '/views'))
 
 // mention user specified search keyword here
-let search_query = 'world+cup'
+let search_query = 'india'
 let API_KEY = '091b3cb6469f43caacf630221ca121e6'
 
 // all headlines
